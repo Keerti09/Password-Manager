@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SecureVault - Your Personal Password Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">SecureVault</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="div container">
+        <h1>Password Manager</h1>
+        <p>
+          Welcome to our <b>Password Manager!</b> We're glad you're here. Your
+          security and privacy are our top priorities. With our service, you can
+          safely store and manage your passwords, ensuring they are always
+          secure and easily accessible. If you need any assistance or have any
+          questions, please don't hesitate to reach out. Happy securing!
+        </p>
+
+        <h2>Your Passwords <span id="alert">(Copied!)</span></h2>
+        <table>
+          <tr>
+            <th>Website</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Delete</th>
+          </tr>
+        </table>
+
+        <h2>Add a Password</h2>
+        <form section="/submit" method="post">
+            
+          <label for="website">Website:</label>
+          <input type="text" id="website" name="username" required />
+          <br /><br />
+
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+          <br /><br />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+          <br /><br />
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
+</html>
